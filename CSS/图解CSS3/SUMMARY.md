@@ -14,9 +14,6 @@
     * [CSS3层次属性选择器](CSS3-selcetor/层次属性选择器.md)
 
 
-* [Introduction](README.md)
-* [Introduction](README.md)
-* [Introduction](README.md)
 
 
 
