@@ -1,6 +1,6 @@
 # Web前端笔记
 
-* [First Chapter](chapter1.md)\(Angular.js/README.md\)
+* \[AngularJS相关知识\]\(Angular.js/README.md\)
 
 
 
