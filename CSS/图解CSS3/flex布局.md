@@ -40,6 +40,7 @@ display: inline-flex;
 
         flex-wrap: nowrap | wrap | wrap-reverse;
 * [flex-flow ](#flex-flow) flex-direction属性和flex-wrap属性的简写形式
+
       flex-flow: <flex-direction> || <flex-wrap>;
 * [justify-content ](#justify-content)
  定义了项目在主轴上的对齐方式。
@@ -50,6 +51,7 @@ display: inline-flex;
 
       align-items: flex-start | flex-end | center | baseline | stretch;
 * [align-content ](#align-content) 定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。
+
       align-content: flex-start | flex-end | center | space-between | space-around | stretch;
 
 
