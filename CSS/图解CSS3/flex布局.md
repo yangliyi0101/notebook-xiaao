@@ -37,12 +37,17 @@ display: inline-flex;
 
       flex-direction: row | row-reverse | column | column-reverse;
 * [flex-wrap ](#flex-wrap)  定义，如果一条轴线排不下，如何换行。
+
         flex-wrap: nowrap | wrap | wrap-reverse;
 * [flex-flow ](#flex-flow) flex-direction属性和flex-wrap属性的简写形式
       flex-flow: <flex-direction> || <flex-wrap>;
-* [justify-content ](#justify-content) 定义了项目在主轴上的对齐方式。
+* [justify-content ](#justify-content)
+ 定义了项目在主轴上的对齐方式。
+ 
        justify-content: flex-start | flex-end | center | space-between | space-around;
-* [align-items ](#align-items) 定义项目在交叉轴上如何对齐。
+* [align-items ](#align-items) 
+定义项目在交叉轴上如何对齐。
+
       align-items: flex-start | flex-end | center | baseline | stretch;
 * [align-content ](#align-content) 定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。
       align-content: flex-start | flex-end | center | space-between | space-around | stretch;
