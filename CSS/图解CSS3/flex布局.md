@@ -33,7 +33,14 @@ display: inline-flex;
 ##  基本语法
 容器的六个基本属性：
 
-* [flex-direction](#flex-direction)
+* [flex-direction ](#flex-direction)
+* [flex-wrap ](#flex-wrap)
+* [flex-flow ](#flex-flow)
+* [justify-content ](#justify-content)
+* [align-items ](#align-items)
+* [align-content ](#align-content)
+
+决定主轴的方向
 * flex-wrap
 * flex-flow
 * justify-content
