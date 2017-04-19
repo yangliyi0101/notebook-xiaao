@@ -34,6 +34,7 @@ display: inline-flex;
 容器的六个基本属性：
 
 * [flex-direction ](#flex-direction) 决定主轴的方向
+
       flex-direction: row | row-reverse | column | column-reverse;
 * [flex-wrap ](#flex-wrap)  定义，如果一条轴线排不下，如何换行。
         flex-wrap: nowrap | wrap | wrap-reverse;
