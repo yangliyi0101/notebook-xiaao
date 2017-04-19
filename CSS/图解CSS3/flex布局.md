@@ -17,4 +17,9 @@ Flex是Flexible Box的缩写，意为"弹性布局"，用来为盒状模型提�
 display: flex;
 }
 ```
-
+行内元素也可以使用Flex布局。
+```css
+.box{
+display: inline-flex;
+}
+```
