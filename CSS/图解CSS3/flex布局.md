@@ -31,11 +31,16 @@ display: inline-flex;
 容器默认存在两根轴：水平的主轴（main axis）和垂直的交叉轴（cross axis）。主轴的开始位置（与边框的交叉点）叫做main start，结束位置叫做main end；交叉轴的开始位置叫做cross start，结束位置叫做cross end。
 项目默认沿主轴排列。单个项目占据的主轴空间叫做main size，占据的交叉轴空间叫做cross size。
 ##  基本语法
-六个基本属性
-flex-direction
-flex-wrap
-flex-flow
-justify-content
-align-items
-align-content
+容器的六个基本属性：
+
+* [flex-direction](#flex-direction)
+* flex-wrap
+* flex-flow
+* justify-content
+* align-items
+* align-content
+
+
+
+
 
