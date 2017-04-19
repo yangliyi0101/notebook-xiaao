@@ -33,9 +33,9 @@ display: inline-flex;
 ##  基本语法
 容器的六个基本属性：
 
-* [flex-direction ](#flex-direction)
+* [flex-direction ](#flex-direction) 决定主轴的方向
       flex-direction: row | row-reverse | column | column-reverse;
-* [flex-wrap ](#flex-wrap)
+* [flex-wrap ](#flex-wrap)  定义，如果一条轴线排不下，如何换行。
         flex-wrap: nowrap | wrap | wrap-reverse;
 * [flex-flow ](#flex-flow) flex-direction属性和flex-wrap属性的简写形式
       flex-flow: <flex-direction> || <flex-wrap>;
@@ -46,40 +46,6 @@ display: inline-flex;
 * [align-content ](#align-content) 定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。
       align-content: flex-start | flex-end | center | space-between | space-around | stretch;
 
-决定主轴的方向
-* flex-wrap
-* flex-flow
-* justify-content
-* align-items
-* align-content
-
-dhasj
-df
-
-sfsd
-fsd
-
-
-f
-sf
-
-sdf
-
-sdfhkdj
-
-
-
-fsdfds
-f
-sdf
-s
-f
-fsdf
-sf
-
-sdf
-
-sf
 
 
 <h3 id=flex-direction>hkfshfkj<h3>
