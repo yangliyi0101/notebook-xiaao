@@ -1,6 +1,7 @@
 ## 关于webpack打包之后请求公共变量/函数的用法
 
-公用函数或者变量的`common.js`文件,dingy
+
+`common.js`文件,定义公用函数或者变量
 
 ```js
 /**
@@ -26,4 +27,17 @@ module.exports = zz;    //将zz暴露出去,可以让其他文件请求到
 
 
 ```
+
+`某controller.js`调用公用函数或者变量
+```js
+var ZZ = require('../../service/common.js');
+//var ZZ = require('../../service/common'); //或者直接js名称
+
+//调用
+var chaname=ZZ.name;
+ZZ.aa();
+ZZ.bb();
+
+```
+
 
