@@ -33,7 +33,7 @@ module.exports = zz;    //将zz暴露出去,可以让其他文件请求到
 var ZZ = require('../../service/common.js');
 //var ZZ = require('../../service/common'); //或者直接js名称
 
-//调用
+//使用变量名+`.`调用
 var chaname=ZZ.name;
 ZZ.aa();
 ZZ.bb();
