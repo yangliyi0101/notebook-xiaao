@@ -7,9 +7,6 @@
 /**
  * Created by XiaAo on 2017/5/9.
  */
-
-
-
 var zz = {
     name: 10,           //定义变量
     aa: function () {   //定义function aa();
@@ -19,12 +16,9 @@ var zz = {
         alert("bbb");
     }
 }
-
 alert('hkjhjkhh');  //不用调用，直接就会执行
 
-
 module.exports = zz;    //将zz暴露出去,可以让其他文件请求到
-
 
 ```
 
