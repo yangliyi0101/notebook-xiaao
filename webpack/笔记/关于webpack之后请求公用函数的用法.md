@@ -30,7 +30,8 @@ module.exports = zz;    //将zz暴露出去,可以让其他文件请求到
 
 `某controller.js`调用公用函数或者变量
 ```js
-var ZZ = require('../../service/common.js');
+//将请求到的js赋给变量ZZ，通过ZZ去调用
+var ZZ = require('../../service/common.js');    
 //var ZZ = require('../../service/common'); //或者直接js名称
 
 //使用变量名+`.`调用
