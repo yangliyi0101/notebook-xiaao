@@ -15,6 +15,18 @@
 <script type="text/ecmascript-6">
   import BScroll from 'better-scroll';
   
+  let show = !this.fold;
+  if (show) {
+          this.$nextTick(() => {
+            if (!this.scroll) {
+              this.scroll = new BScroll(this.$refs.listContent, {
+                click: true
+              });
+            } else {
+              this.scroll.refresh();
+            }
+          });
+        }
 </script> 
 ```
 
