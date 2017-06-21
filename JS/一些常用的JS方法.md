@@ -18,6 +18,7 @@ assign() 方法可加载一个新的文档。
 ```
 location.assign(URL)
 ```
+### Object.assign()方法
+特点：浅拷贝、对象属性的合并
 
-
-
+var nObj = Object.assign({},obj,obj1);//花括号叫目标对象，后面的obj、obj1是源对象。对象合并是指：将源对象里面的属性添加到目标对象中去，若两者的属性名有冲突，后面的将会覆盖前面的
