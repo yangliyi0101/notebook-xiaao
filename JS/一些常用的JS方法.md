@@ -12,5 +12,12 @@ arr.filter(callback,[ thisArg])
 ```js
 stringObject.indexOf(searchvalue,fromindex)
 ```
+### assign() 方法
+assign() 方法可加载一个新的文档。
+
+```
+location.assign(URL)
+```
+
 
 
