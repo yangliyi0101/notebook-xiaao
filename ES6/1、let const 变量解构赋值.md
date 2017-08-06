@@ -40,6 +40,7 @@ typeof x; // ReferenceError
 let x;
 ```
 
+`let`不允许在相同作用域内，重复声明同一个变量。
 
 
 
