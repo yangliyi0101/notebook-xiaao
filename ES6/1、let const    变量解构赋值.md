@@ -46,3 +46,24 @@ let x;
 ##变量的解构赋值
 
 ###对象的解构赋值
+
+
+```js
+var { foo: baz } = { foo: 'aaa', bar: 'bbb' };
+baz // "aaa"
+
+let obj = { first: 'hello', last: 'world' };
+let { first: f, last: l } = obj;
+f // 'hello'
+l // 'world'
+```
+这实际上说明，对象的解构赋值是下面形式的简写（参见《对象的扩展》一章）
+
+
+```js
+let { foo: foo, bar: bar } = { foo: "aaa", bar: "bbb" };
+```
+也就是说，对象的解构赋值的内部机制，是先找到同名属性，然后再赋给对应的变量。真正被赋值的是后者，而不是前者。
+
+
+
