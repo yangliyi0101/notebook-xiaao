@@ -75,8 +75,26 @@ foo // error: foo is not defined
 
 ####对象的解构赋值的嵌套
 
+数组一样，解构也可以用于嵌套结构的对象
 
 
+```js
+var node = {
+  loc: {
+    start: {
+      line: 1,
+      column: 5
+    }
+  }
+};
 
+var { loc, loc: { start }, loc: { start: { line }} } = node;
+line // 1
+loc  // Object {start: Object}
+start // Object {line: 1, column: 5}
+```
+上面代码有三次解构赋值，分别是对loc、start、line三个属性的解构赋值。注意，最后一次对line属性的解构赋值之中，只有line是变量，loc和start都是模式，不是变量。
+
+如果解构模式是嵌套的对象，而且子对象所在的父属性不存在，那么将会报错。
 
 
