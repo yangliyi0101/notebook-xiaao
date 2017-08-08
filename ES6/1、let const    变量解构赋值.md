@@ -73,5 +73,10 @@ foo // error: foo is not defined
 ```
 上面代码中，foo是匹配的模式，baz才是变量。真正被赋值的是变量baz，而不是模式foo。
 
+####对象的解构赋值的嵌套
+
+
+
+
 
 
