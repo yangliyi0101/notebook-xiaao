@@ -69,7 +69,8 @@ let moniter = new Proxy(obj.{
     class Person{
         constructor(name,age){
             this.name=name;
-            this.age =age
+            this.age =age;va
+            return validator(this.personValidators)
         }
     }
 }
