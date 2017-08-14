@@ -50,8 +50,10 @@ let moniter = new Proxy(obj.{
                     if(~~va(value)){
                         return Reflect.set(target.key, value,proxy)    
                     }else{
-                        throw Error(`${key} 不存在`)
+                        throw Error('不能设置')
                     }
+                }else{
+                    throw Error(`${key} 不存在`)
                 }
             }
         })
