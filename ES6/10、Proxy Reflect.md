@@ -25,8 +25,12 @@ let moniter = new Proxy(obj.{
         }else{
             return target[key];
         }
-    }
+    } 
 })
 
 ```
 
+
+### Reflect
+
+使用方法类似Proxy
