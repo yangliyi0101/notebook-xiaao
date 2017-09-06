@@ -39,4 +39,18 @@ var nObj = Object.assign({},obj,obj1);//花括号叫目标对象，后面的obj�
     }
 
 ```
+### unshift() 方法
+unshift() 方法可向数组的开头添加一个或更多元素，并返回新的长度。    
+语法：
+
+
+```js
+arrayObject.unshift(newelement1,newelement2,....,newelementX)
+```
+
+参数	描述
+newelement1	必需。向数组添加的第一个元素。
+newelement2	可选。向数组添加的第二个元素。
+newelementX	可选。可添加若干个元素。
+
 
