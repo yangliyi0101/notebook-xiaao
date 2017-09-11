@@ -94,6 +94,8 @@ $scope.formData.businessLicenses='';
 ```js
 
 ```
+六、文件拖拽上传
+还未试验成功，后面有时间再继续试验
 
 
 
