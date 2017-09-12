@@ -17,6 +17,10 @@ resolve:{
 2、控制器加载  
 引入$ocLazyLoad
 
+```js
+$ocLazyLoad.load([所需加载的文件]);
+```
+
 3、依赖加载
 
 ```js
