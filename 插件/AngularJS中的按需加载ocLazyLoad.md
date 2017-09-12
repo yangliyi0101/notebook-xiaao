@@ -4,6 +4,7 @@
                 [https://segmentfault.com/a/1190000009650471](https://segmentfault.com/a/1190000009650471)
 
 #### angularJsshiyong ocLazyLoad懒加载有四种加载方式
+
 1、路由加载文件（比较常用，接下里主要讲这种）
 
 ```js
@@ -43,6 +44,28 @@ angular.module('myapp', [[
             '所需加载的文件'
         ]
     }]
+```
+
+#### ui-router加载文件实例
+
+```js
+/**pos卡管理-编辑**/
+.state(StateName.pos.edit, {``
+    templateUrl: "views/pos/edit.html",
+    controller: 'PosCardEditCtrl',
+    params: {'pdaCode': null},
+    resolve: {
+        deps: ['$ocLazyLoad', function ($ocLazyLoad) {
+            return $ocLazyLoad.load({
+                files: [
+                    'vender/datatables/plugins/bootstrap/dataTables.bootstrap.css',
+                    'vender/datatables/all.min.js',
+                    'views/pos/scripts/posCardEditCtrl.js'
+                ]
+            });
+        }]
+    }
+})
 ```
 
 
