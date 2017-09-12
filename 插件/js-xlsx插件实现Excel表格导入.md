@@ -23,7 +23,7 @@ Github：\[[SheetJS](https://github.com/SheetJS)/[**js-xlsx**](https://github.co
 
 ###### html
 
-```js
+```html
 <div class="buttonbox">
     <span class="fileNameDisplay btn" ng-if="excelNameDisplay">{{f.name}}</span>
     <button class="btn btn-sm btn-default" type="file" ngf-select="uploadFiles($file, $invalidFiles)"
@@ -38,5 +38,81 @@ Github：\[[SheetJS](https://github.com/SheetJS)/[**js-xlsx**](https://github.co
 </div>
 ```
 
+###### JS
 
+```js
+//文件上传
+$scope.uploadFiles = function (file, errFiles) {
+    // debugger;
+    try {
+        //文件重命名规则： 00+YYMMDDHHmmss+3+（1|2|3）
+        // var time = (new Date()).format("yyMMddhhmmss");
+        var preff = file.name.slice(file.name.lastIndexOf("."));
+        console.log(preff);
+        if (preff != '.xls' && preff != '.xlsx') {
+            alert('请选择xls或者xlsx格式文件');
+            return;
+        }
+        $scope.f = file;
+        // var prev = "00";
+        // var newName = prev + time + "3" + preff;
+        if (file) {
+            console.log(2222);
+            Exl_to_Json(file);
+            $scope.excelNameDisplay = true;
+        }
+    } catch (e) {
+    }
+};
+
+// 将表格内容转成json格式
+function Exl_to_Json(obj) { //导入
+    var wb = null;//读取完成的数据
+    var rABS = false; //是否将文件读取为二进制字符串
+    if (obj.files) {
+        return;
+    }
+    var f = obj;
+    var reader = new FileReader();
+    // console.log(f,reader);
+    reader.onload = function (e) {
+        var data = e.target.result;
+        // console.log(data);
+        if (rABS) {
+            wb = XLSX.read(btoa(fixdata(data)), {//手动转化
+                type: 'base64'
+            });
+        } else {
+            wb = XLSX.read(data, {
+                type: 'binary'
+            });
+        }
+        console.log(wb);
+        //wb.SheetNames[0]是获取Sheets中第一个Sheet的名字
+        //wb.Sheets[Sheet名]获取第一个Sheet的数据
+        $scope.json2 = XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]],
+            {header: ['id', 'number', 'location', 'lat', 'long', 'state'], range: 2, raw: true, defval: null});
+        // $scope.json3 = JSON.stringify(XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[1]]));
+        console.log($scope.json2);
+        alert('导入数据成功');
+    };
+    if (rABS) {
+        reader.readAsArrayBuffer(f);
+    } else {
+        reader.readAsBinaryString(f);
+    }
+};
+//文件流转BinaryString
+function fixdata(data) {
+    var o = "",
+        l = 0,
+        w = 10240;
+    for (; l < data.byteLength / w; ++l)
+        o += String.fromCharCode.apply(null, new Uint8Array(data.slice(l * w, l * w + w)));
+    o += String.fromCharCode.apply(null, new Uint8Array(data.slice(l * w)));
+    return o;
+}
+```
+
+![](/assets/无标题.png)
 
