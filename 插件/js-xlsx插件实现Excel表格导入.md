@@ -125,13 +125,13 @@ function fixdata(data) {
 | Option Name | Default | Description |
 | :--- | :--- | :--- |
 | raw | `false` | 格式化字符串 |
-| range | from WS | 设置转化范围` rang: 2 `表示从第二行开始导出，之前的内容不导出 |
+| range | from WS | 设置转化范围`rang: 2`表示从第二行开始导出，之前的内容不导出 |
 | header |  | 控制输出json字段格式 |
 | dateNF | fmt 14 | 日期输出格式 |
 | defval |  | 定义空数据或者undefined内容导出格式，默认不导出，`defval: null` 表示空数据导出字段为null类型 |
 | blankrows | \*\* | 输出空行（这个我也没试过）\*\* |
 
-* `raw`和福克
+
 
 
 
