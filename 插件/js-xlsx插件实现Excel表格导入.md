@@ -139,5 +139,14 @@ function fixdata(data) {
 | \(string\) | Use specified range \(A1-style bounded range string\) |
 | \(default\) | Use worksheet range \(`ws['!ref']`\) |
 
+`header`is expected to be one of:
+
+| `header` | Description |
+| :--- | :--- |
+| `1` | Generate an array of arrays \("2D Array"\) |
+| `"A"` | Row object keys are literal column labels |
+| array of strings | Use specified strings as keys in row objects |
+| \(default\) | Read and disambiguate first row as keys |
+
 
 
