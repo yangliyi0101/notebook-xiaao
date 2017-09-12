@@ -1,25 +1,24 @@
 ### ng-file-upload教程
-参考来源于：[木槿惜年2013《ng-file-upload教程》](http://www.jianshu.com/p/6e14f9200450)
-Github源码地址:https://github.com/danialfarid/ng-file-upload
 
+参考来源于：[木槿惜年2013《ng-file-upload教程》](http://www.jianshu.com/p/6e14f9200450)  
+Github源码地址:[https://github.com/danialfarid/ng-file-upload](https://github.com/danialfarid/ng-file-upload)
 
-一、ng-file-upload简介
-　　是一款轻量级、跨浏览器的angular上传文件指令
-二、特点
-　　（1）支持文件上传进度条、取消、暂停
-　　（2）支持文件拖放和黏贴图像
-　　（3）支持暂停和取消文件上传
-　　（4）支持验证文件的类型 / 大小、图像宽度 / 高度、视频 / 音频持续时间（ng-required）
-　　（5）支持预览显示选择的图像、视频、音频
-　　（6）支持CORS和直接上传文件的二进制数据( Upload.$http() )
-　　.....
-三、用法
-　　示例：参考教程
+一、ng-file-upload简介  
+　　是一款轻量级、跨浏览器的angular上传文件指令  
+二、特点  
+　　（1）支持文件上传进度条、取消、暂停  
+　　（2）支持文件拖放和黏贴图像  
+　　（3）支持暂停和取消文件上传  
+　　（4）支持验证文件的类型 / 大小、图像宽度 / 高度、视频 / 音频持续时间（ng-required）  
+　　（5）支持预览显示选择的图像、视频、音频  
+　　（6）支持CORS和直接上传文件的二进制数据\( Upload.$http\(\) \)  
+　　.....  
+三、用法  
+　　示例：参考教程  
 四、实例
 
-
 ```html
- <div class="form-group">
+  <div class="form-group">
                             <label class="control-label col-md-2">
                                 添加图片<span class="required">*</span>
                             </label>
@@ -40,9 +39,7 @@ Github源码地址:https://github.com/danialfarid/ng-file-upload
                                 </span>
                             </div>
                         </div>
-
 ```
-
 
 ```js
 $scope.formData.businessLicenses='';
@@ -91,18 +88,11 @@ $scope.formData.businessLicenses='';
             }
         }
 ```
+
 ```js
 
 ```
-六、文件拖拽上传
+
+六、文件拖拽上传  
 还未试验成功，后面有时间再继续试验
-
-
-
-
-
-
-
-
-
 
