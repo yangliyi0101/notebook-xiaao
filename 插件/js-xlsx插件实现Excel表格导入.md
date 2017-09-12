@@ -131,7 +131,13 @@ function fixdata(data) {
 | defval |  | 定义空数据或者undefined内容导出格式，默认不导出，`defval: null` 表示空数据导出字段为null类型 |
 | blankrows | \*\* | 输出空行（这个我也没试过）\*\* |
 
+`range`is expected to be one of:
 
+| `range` | Description |
+| :--- | :--- |
+| \(number\) | Use worksheet range but set starting row to the value |
+| \(string\) | Use specified range \(A1-style bounded range string\) |
+| \(default\) | Use worksheet range \(`ws['!ref']`\) |
 
 
 
