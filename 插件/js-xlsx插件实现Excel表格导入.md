@@ -114,5 +114,14 @@ function fixdata(data) {
 }
 ```
 
+###### 效果
+
 ![](/assets/无标题.png)
+
+#### 3、`XLSX.utils.sheet_to_json()`函数
+
+将读取到的文件流转化为json数组
+
+
+
 
