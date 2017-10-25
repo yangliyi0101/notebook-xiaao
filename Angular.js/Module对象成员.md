@@ -1,6 +1,6 @@
 ## angular.module\(\).object\(\)
 
-参考[http://www.cnblogs.com/sean-/p/4952183.html](http://www.cnblogs.com/sean-/p/4952183.html)
+[参考](http://www.cnblogs.com/sean-/p/4952183.html)[http://www.cnblogs.com/sean-/p/4952183.html](http://www.cnblogs.com/sean-/p/4952183.html)
 
 **1.config\(configFn\)**
 
