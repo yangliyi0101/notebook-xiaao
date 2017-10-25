@@ -34,9 +34,6 @@ angularjs里比较重要但又很少手动调用的要属$compile服务了，通
 
 通过$compile服务可以编译html字符串或dom对象或jqLite对象，然后得到一个编译函数，再传入$scope，就会在当前作用域进行编译，返回编译好的jqLite对象，这时就可以直接添加到文档中了（也可以先添加到文档再编译）。
 
-  
-
-
 编译的实质其实就是对dom对象解析，使dom对象与scope进行耦合，通过绑定可以实现数据的更新，像Vue其实也是一样的过程。
 
 ### 封装为指令 {#封装为指令}
@@ -58,7 +55,7 @@ angularjs里比较重要但又很少手动调用的要属$compile服务了，通
                             <ul>\
                                 <li ng-repeat="item in items">{{item}}</li>\
                             </ul>'
- 
+
             })
             .directive('compile', function($compile) {
                 return {
