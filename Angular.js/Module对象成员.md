@@ -44,7 +44,7 @@ function Greeter(salutation) {
 
 greeter函数示例如下：
 
-```
+```js
 myApp.factory('greeter', function(salut) {
  return new Greeter(salut);
 });
@@ -52,13 +52,13 @@ myApp.factory('greeter', function(salut) {
 
 然后可以这样来调用它：
 
-```
+```js
 var myGreeter = greeter('Halo');
 ```
 
 **9.service\(name,object\)**
 
-factory和service之间的不同点在于，factory会直接调用传递给它的函数，然后返回执行的结果；而service将会使用"new"关键字来调用传递给它的构造方法，然后再返回结果。所以，前面的greeter Factory可以替换成下面这个greeter Service：
+factory和service之间的不同点在于，factory会直接调用传递给它的函数，然后返回执行的结果；**而service将会使用"new"关键字来调用传递给它的构造方法**，然后再返回结果。所以，前面的greeter Factory可以替换成下面这个greeter Service：
 
 ```
 myApp.service('greeter', Greeter);
