@@ -2,6 +2,8 @@
 
 angularjs里比较重要但又很少手动调用的要属$compile服务了，通常在写组件或指令时，都是angularjs自动编译完成的，但有时我们可能需要手动编译，比如封装一个table组件，根据参数实现自定义渲染，增加一列复选框或者一列按钮啥的，这是就需要用到$compile了
 
+参考[http://docs.ngnice.com/api/ng/service/$compile](http://docs.ngnice.com/api/ng/service/$compile)
+
 例子:
 
 ```html
