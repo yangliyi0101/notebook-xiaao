@@ -1,5 +1,7 @@
 ## angular.module\(\).object\(\)
 
+参考[http://www.cnblogs.com/sean-/p/4952183.html](http://www.cnblogs.com/sean-/p/4952183.html)
+
 **1.config\(configFn\)**
 
 利用此方法可以做一些注册工作，这些工作需要在模块加载时完成。
@@ -87,15 +89,15 @@ myApp.provider('greeter', function() {
  return new Greeter(a);
 };
 });
-
 ```
+
 这样我们就可以在运行时动态设置问候语了（例如，可以根据用户使用的不同语言进行设置）。
+
 ```js
 var myApp = angular.module(myApp, []).config(function(greeterProvider) {
 greeterProvider.setSalutation('Namaste');
 });
 ```
+
 每当有人需要一个greeter实例时，AngularJS就会在内部调用$get方法。
-
-
 
