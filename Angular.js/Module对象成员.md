@@ -101,7 +101,33 @@ greeterProvider.setSalutation('Namaste');
 
 每当有人需要一个greeter实例时，AngularJS就会在内部调用$get方法。
 
-
+##### factory service provider三者的区别
 
 参考：[《深究AngularJS——自定义服务详解\(factory、service、provider\)》](http://blog.csdn.net/zcl_love_wx/article/details/51404390)
+
+上文在介绍angular 的module时 已经降到了三者的区别，其实关于provider的话还是笔记哦啊好区分的，这个一个可以配置的服务，你可以在Provider对象传递到应用程序的其他部分之前在app.config函数中对其进行修改，比如在调用provider之前给provider对象里面的某个参数配置初始值等，可以参考上面的一篇博文。
+
+重点 就是在factory 和 service 之间，用的比较多的就是**factory **，这个服务创建的是一个对象，返回的也是一个对象，只是单纯调用方法，用的比较多。
+
+```js
+app.factory('MyService', function () {
+  return {
+    sayHello: function () {
+      console.log('hello');
+    }
+  }
+});
+```
+
+**service **创建的是一个构建函数，在它底层创建的过程中，回去调用的一个object.create\(\)方法，生成一个构造函数，因而很明显可以使用this指针。
+
+```js
+app.service('MyService', function() {
+    this.sayHello = function() {
+        console.log('hello');
+        };
+    });
+```
+
+
 
