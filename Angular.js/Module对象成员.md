@@ -119,7 +119,7 @@ app.factory('MyService', function () {
 });
 ```
 
-**service **创建的是一个构建函数，在它底层创建的过程中，回去调用的一个object.create\(\)方法，生成一个构造函数，因而很明显可以使用this指针。
+**service **创建的是一个构建函数，在它底层创建的过程中，回去调用的一个`object.create()`方法，生成一个构造函数，因而很明显可以使用`this`指针。
 
 ```js
 app.service('MyService', function() {
