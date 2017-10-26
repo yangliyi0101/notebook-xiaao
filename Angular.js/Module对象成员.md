@@ -101,3 +101,7 @@ greeterProvider.setSalutation('Namaste');
 
 每当有人需要一个greeter实例时，AngularJS就会在内部调用$get方法。
 
+
+
+参考：[《深究AngularJS——自定义服务详解\(factory、service、provider\)》](http://blog.csdn.net/zcl_love_wx/article/details/51404390)
+
