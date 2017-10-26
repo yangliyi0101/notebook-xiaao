@@ -129,5 +129,5 @@ app.service('MyService', function() {
     });
 ```
 
-
+更详细的代码见上方博文分享。
 
