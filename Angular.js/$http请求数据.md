@@ -232,8 +232,8 @@ $http({
 ```js
 $http({
     url: Setting.dcroadUrl.POS.POS_PAGINATION,
-    method: 'GET',
-    params: reqData,
+    method: 'PUT',
+    data: reqData,
     headers: { 'Content-Type': 'application/x-www-form-urlencoded'}
 }).success(function (resp) {
     if (resp) {
@@ -246,26 +246,7 @@ $http({
 });
 ```
 
-#### `POST`
-
-参数：`params:repData`
-
-```js
-$http({
-    url: Setting.dcroadUrl.POS.POS_PAGINATION,
-    method: 'GET',
-    params: reqData,
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded'}
-}).success(function (resp) {
-    if (resp) {
-        deferred.resolve(resp);
-    } else {
-        deferred.reject(errorMsg);
-    }
-}).error(function () {
-    deferred.reject(errorMsg);
-});
-```
+#### 
 
 
 
