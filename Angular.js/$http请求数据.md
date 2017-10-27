@@ -190,7 +190,7 @@ $http({
 ```js
 $http({
     url: Setting.dcroadUrl.POS.POS_PAGINATION,
-    method: 'GET',
+    method: 'POST',
     data: reqData,
     headers: { 'Content-Type': 'application/x-www-form-urlencoded'}
 }).success(function (resp) {
@@ -211,8 +211,8 @@ $http({
 ```js
 $http({
     url: Setting.dcroadUrl.POS.POS_PAGINATION,
-    method: 'GET',
-    params: reqData,
+    method: 'DELETE',
+    data: reqData,
     headers: { 'Content-Type': 'application/x-www-form-urlencoded'}
 }).success(function (resp) {
     if (resp) {
