@@ -6,14 +6,13 @@
 
 在angular.js中，使用的是`$http`请求服务器段数据,`$http`是源生JS中对Ajax的封装使用，调用`$http`和Ajax的方法是一样的！
 
-
-##常规用法
+## 常规用法
 
 ```
  $http({
-	method: 'GET', 
-	url: '/someUrl'
-	}).
+    method: 'GET', 
+    url: '/someUrl'
+    }).
     then(function(data, status, headers, config) {
       // this callback will be called asynchronously
       // when the response is available
@@ -23,31 +22,38 @@
       // or server returns response with an error status.
     });
 ```
-####注意：在angularJS V1.5版本之前使用的是`success`和`error`方法，在1.5之后的版本中该方法已经废弃，使用`then`和`catch`方法。
 
-##快捷方法
+#### 注意：在angularJS V1.5版本之前使用的是`success`和`error`方法，在1.5之后的版本中该方法已经废弃，使用`then`和`catch`方法。
 
- - `$http.get`
- - `$http.post` 
- - `$http.head` 
- - `$http.put` 
- - `$http.delete` 
- - `$http.jsonp` 
- 
-### 使用示例 ###
+## 快捷方法
+
+* `$http.get`
+* `$http.post` 
+* `$http.head` 
+* `$http.put` 
+* `$http.delete` 
+* `$http.jsonp` 
+
+### 使用示例
+
 ```
  $http.get('/someUrl').success(successCallback);
  $http.post('/someUrl', data).success(successCallback);
 ```
+
 详情可参考：[angularJS开发API有关`$http`使用](http://docs.ngnice.com/api/ng/service/$http)
 
+---
 
-----------
-## $http请求本地数据 ##
-有时候在前端开发的过程中，会遇到需要后台数据去渲染页面，但是此时还没有跟后台进行数据交互，就需要在本地模拟数据进行页面渲染！
+## $http请求本地数据
+
+有时候在前端开发的过程中，会遇到需要后台数据去渲染页面，但是此时还没有跟后台进行数据交互，就需要在本地模拟数据进行页面渲染！  
 常用的本地模拟数据分为两种，一种本地json文件格式数据，一种为本地js文件格式数据。
-###1. 本地json数据请求
-#####`studentInfo.json`文件#####
+
+### 1. 本地json数据请求
+
+##### `studentInfo.json`文件
+
 ```
 [
     {
@@ -101,8 +107,8 @@
 ]
 ```
 
+##### `controller.js`文件
 
-#####`controller.js`文件
 ```
 $http({
         method: 'GET',
@@ -126,18 +132,20 @@ $http({
         });
 ```
 
-###2. 本地js数据请求
+### 2. 本地js数据请求
+
 `studentInfo.js`文件内容和`studentInfo.json`内容是一样的，两者的区别在于`$http`请求时，请求到的`data`数据就是原本的`data`数据，不需要再对`data`进行解析，可以直接使用！
 
-###>$http缓存数据###
+### &gt;$http缓存数据
 
 有时候，会遇到同一资源多次请求，就可以设置请求缓存，设置`catch:true`实现缓存
+
 ```
 $http({
-	method: 'GET', 
-	url: '/someUrl',
-	catch:true,
-	}).
+    method: 'GET', 
+    url: '/someUrl',
+    catch:true,
+    }).
     then(function(data, status, headers, config) {
       // this callback will be called asynchronously
       // when the response is available
@@ -147,10 +155,33 @@ $http({
       // or server returns response with an error status.
     });
 ```
-----------
-## `$http`请求服务器端数据 ##
-post
+
+---
+
+## `$http`请求服务器端数据
 
 
- 
+
+### $http请求方法与参数
+
+#### `POST`
+
+```js
+$http({
+    url: Setting.dcroadUrl.POS.POS_PAGINATION,
+    method: 'GET',
+    params: reqData,
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded'}
+}).success(function (resp) {
+    if (resp) {
+        deferred.resolve(resp);
+    } else {
+        deferred.reject(errorMsg);
+    }
+}).error(function () {
+    deferred.reject(errorMsg);
+});
+```
+
+
 
