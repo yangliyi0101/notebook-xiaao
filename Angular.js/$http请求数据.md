@@ -160,11 +160,95 @@ $http({
 
 ## `$http`请求服务器端数据
 
-
-
 ### $http请求方法与参数
 
+#### `GET`
+
+参数：`params:repData`
+
+```js
+$http({
+    url: Setting.dcroadUrl.POS.POS_PAGINATION,
+    method: 'GET',
+    params: reqData,
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded'}
+}).success(function (resp) {
+    if (resp) {
+        deferred.resolve(resp);
+    } else {
+        deferred.reject(errorMsg);
+    }
+}).error(function () {
+    deferred.reject(errorMsg);
+});
+```
+
 #### `POST`
+
+参数：`data:repData`
+
+```js
+$http({
+    url: Setting.dcroadUrl.POS.POS_PAGINATION,
+    method: 'GET',
+    data: reqData,
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded'}
+}).success(function (resp) {
+    if (resp) {
+        deferred.resolve(resp);
+    } else {
+        deferred.reject(errorMsg);
+    }
+}).error(function () {
+    deferred.reject(errorMsg);
+});
+```
+
+#### `DELETE`
+
+参数：`data:repData`
+
+```js
+$http({
+    url: Setting.dcroadUrl.POS.POS_PAGINATION,
+    method: 'GET',
+    params: reqData,
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded'}
+}).success(function (resp) {
+    if (resp) {
+        deferred.resolve(resp);
+    } else {
+        deferred.reject(errorMsg);
+    }
+}).error(function () {
+    deferred.reject(errorMsg);
+});
+```
+
+#### `PUT`
+
+参数：`data:repData`
+
+```js
+$http({
+    url: Setting.dcroadUrl.POS.POS_PAGINATION,
+    method: 'GET',
+    params: reqData,
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded'}
+}).success(function (resp) {
+    if (resp) {
+        deferred.resolve(resp);
+    } else {
+        deferred.reject(errorMsg);
+    }
+}).error(function () {
+    deferred.reject(errorMsg);
+});
+```
+
+#### `POST`
+
+参数：`params:repData`
 
 ```js
 $http({
