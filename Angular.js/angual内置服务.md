@@ -41,7 +41,7 @@ $scope.gotoBottom = function() {
 
 $animate服务提供了基本的DOM操作功能如在DOM里插入、移除和移动元素，以及添加和删除类。这个服务是ngAnimate的核心服务，为CSS和Javascript提供了高档次的动画。
 
-[API ](http://docs.ngnice.com/api/ng/service/$animate) [API中文](http://www.cnblogs.com/ys-ys/p/4987022.html)
+参考：[API ](http://docs.ngnice.com/api/ng/service/$animate) [API中文](http://www.cnblogs.com/ys-ys/p/4987022.html)
 
 #### 4、$compile
 
