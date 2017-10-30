@@ -45,5 +45,7 @@ $scopile 还允许接收其他参数
 function compile(tElement, tAttrs, transclude) { ... }
 ```
 
+具体 使用方法参考： [API](http://docs.ngnice.com/api/ng/service/$compile)   以及    [邹业盛原创Compile的细节](https://checkcheckzz.gitbooks.io/angularjs-learning-notes/content/chapter18/18-5.html)
+
 
 
