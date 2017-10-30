@@ -84,7 +84,7 @@ function compile(tElement, tAttrs, transclude) { ... }
 
 等同于`window.document`
 
-7、$exceptionHandler 
+7、$exceptionHandler
 
-处理程序中出现的异常
+处理程序中出现的异常，不常用
 
