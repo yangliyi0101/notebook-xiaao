@@ -94,11 +94,11 @@ function compile(tElement, tAttrs, transclude) { ... }
 
 自带过滤类型：
 
-_**`currency`货币  **_
+`currency`_**货币  **_
 
 _** date 时间  **_
 
-_** filter **_从数组中选出一个子集，并将其作为一个新数组返回  
+_** filter **_从数组中选出一个子集，并将其作为一个新数组返回
 
 _**json **_允许将一个javascript对象转换为json字符串
 
@@ -112,5 +112,5 @@ _**orderBy **_判断表达式将指定的数组进行排序，它是按字符串
 
 _**uppercase **_将字符串转换为大写
 
-自定义**filter**
+自定义**filter **
 
