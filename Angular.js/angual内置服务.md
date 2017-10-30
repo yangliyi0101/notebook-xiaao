@@ -1,12 +1,12 @@
-### angular内置服务
+### [缓存服务](http://www.cnblogs.com/ys-ys/p/4967404.html)[缓存服务](http://www.cnblogs.com/ys-ys/p/4967404.html)[缓存服务](http://www.cnblogs.com/ys-ys/p/4967404.html)[缓存服务](http://www.cnblogs.com/ys-ys/p/4967404.html)[缓存服务](http://www.cnblogs.com/ys-ys/p/4967404.html)[缓存服务](http://www.cnblogs.com/ys-ys/p/4967404.html)angular内置服务
 
 ### 总表
 
 | 名字 | 说明 |
 | :---: | :--- |
 | $anchorScroll | 滚动浏览器至指定的锚点 |
-|  |  |
-|  |  |
+| $animate | 基本的DOM操作功能 |
+| $cacheFactory | 缓存服务 |
 | $compile | 将HTML字符串或DOM编译为模板并生成模板函数 |
 |  |  |
 |  |  |
@@ -42,6 +42,10 @@ $scope.gotoBottom = function() {
 $animate服务提供了基本的DOM操作功能如在DOM里插入、移除和移动元素，以及添加和删除类。这个服务是ngAnimate的核心服务，为CSS和Javascript提供了高档次的动画。
 
 参考：[API ](http://docs.ngnice.com/api/ng/service/$animate) [API中文](http://www.cnblogs.com/ys-ys/p/4987022.html)
+
+#### 3、$cacheFactory
+
+
 
 #### 4、$compile
 
