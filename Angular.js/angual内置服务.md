@@ -76,3 +76,15 @@ function compile(tElement, tAttrs, transclude) { ... }
 
 具体 使用方法参考： [API](http://docs.ngnice.com/api/ng/service/$compile)   以及    [邹业盛原创Compile的细节](https://checkcheckzz.gitbooks.io/angularjs-learning-notes/content/chapter18/18-5.html)
 
+#### 5、$controller
+
+负责实例化控制器
+
+6、$document
+
+等同于`window.document`
+
+7、$exceptionHandler 
+
+处理程序中出现的异常
+
