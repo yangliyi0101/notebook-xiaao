@@ -39,5 +39,11 @@ parkingAPP.controller('day11Ctrl', function ($rootScope, $scope, $state, $log, $
 });
 ```
 
+$scopile 还允许接收其他参数
+
+```js
+function compile(tElement, tAttrs, transclude) { ... }
+```
+
 
 
