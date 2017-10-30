@@ -92,25 +92,7 @@ function compile(tElement, tAttrs, transclude) { ... }
 
 过滤器 [中文API](http://www.cnblogs.com/ys-ys/p/5006951.html)
 
-自带过滤类型：
+也可见filter过滤器介绍
 
-`currency`_**货币  **_
 
-_** date 时间  **_
-
-_** filter **_从数组中选出一个子集，并将其作为一个新数组返回
-
-_**json **_允许将一个javascript对象转换为json字符串
-
-_**limitTo **_创建一个只包含指定数目元素的数组或字符串。元素是按指定的值和符号（+或-）从数组、字符串或数字的开头或结尾获取的。如果输入一个数字，则转换为字符串。
-
-_**lowercase **_将字符串转换为小
-
-_**number **_将数值转换为文本
-
-_**orderBy **_判断表达式将指定的数组进行排序，它是按字符串的字母顺序和数值的数字排序的。
-
-_**uppercase **_将字符串转换为大写
-
-自定义**filter **
 
