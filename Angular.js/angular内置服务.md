@@ -131,5 +131,7 @@ $location服务解析地址栏中的URL（基于window.location），让你在�
 
 [中文API](http://www.cnblogs.com/ys-ys/p/4992711.html)
 
+15、$log
 
+日志信息， 可以到console输出
 
