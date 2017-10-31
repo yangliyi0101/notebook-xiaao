@@ -114,7 +114,18 @@ window.setInterval的Angular包装形式。Fn是每次延迟时间后被执行�
 
 note:备注：当你执行完这项服务后应该把它销毁。特别是当controller或者directive元素被销毁时而$interval未被销毁。你应该考虑到在适当的时候取消interval事件。
 
-13\**$timeout**
+```js
+/** $interval **/
+$interval(function () {
+    console.log('interval');
+}, 1000, [3], [false])
+```
+
+13、_$timeout_
 
 window.setTimeout的Angular包装形式。Fn函数包装成一个try/catch块，代表$exceptionHandler服务里的任何异常。timeout函数的返回值是一个promise，当到达设置的超时时间时，这个promise将被解决，并执行timeout函数。需要取消timeout，需要调用$timeout.cancel\(promise\);
+
+
+
+
 
