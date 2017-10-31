@@ -106,7 +106,5 @@ http请求
 
 将一个字符串编译成一个插值函数。HTML编译服务使用这个服务完成数据绑定。可以从其他地方获取到内容，处理绑定到对应的html中
 
-[中文API](https://segmentfault.com/a/1190000002753321)  里面有详细的例子，这个服务一般是特定场合才会使用，个人感觉使用场合不是很高
-
-
+[中文API](https://segmentfault.com/a/1190000002753321)  里面有详细的例子，使用的时候一般会结合`$interpolateProvider()`中的开始`startSymbol([value])`和结束`endSymbol([value])`标志方法使用，这个服务一般是特定场合才会使用，个人感觉使用场合不是很高
 
