@@ -94,5 +94,19 @@ function compile(tElement, tAttrs, transclude) { ... }
 
 也可见filter过滤器介绍
 
+9、 $http
+
+http请求
+
+详见$http请求数据
+
+10、$httpBackend
+
+11、**$interpolate**
+
+将一个字符串编译成一个插值函数。HTML编译服务使用这个服务完成数据绑定。可以从其他地方获取到内容，处理绑定到对应的html中
+
+[中文API](https://segmentfault.com/a/1190000002753321)  里面有详细的例子，这个服务一般是特定场合才会使用，个人感觉使用场合不是很高
+
 
 
