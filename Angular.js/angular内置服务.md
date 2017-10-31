@@ -125,7 +125,11 @@ $interval(function () {
 
 window.setTimeout的Angular包装形式。Fn函数包装成一个try/catch块，代表$exceptionHandler服务里的任何异常。timeout函数的返回值是一个promise，当到达设置的超时时间时，这个promise将被解决，并执行timeout函数。需要取消timeout，需要调用$timeout.cancel\(promise\);
 
+14、$location
 
+$location服务解析地址栏中的URL（基于window.location），让你在应用代码中能获取到。改变地址栏中的URL会反应$location服务中，反之亦然
+
+[中文API](http://www.cnblogs.com/ys-ys/p/4992711.html)
 
 
 
