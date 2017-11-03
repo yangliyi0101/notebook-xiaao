@@ -1,4 +1,4 @@
-### [缓存服务](http://www.cnblogs.com/ys-ys/p/4967404.html)[缓存服务](http://www.cnblogs.com/ys-ys/p/4967404.html)[缓存服务](http://www.cnblogs.com/ys-ys/p/4967404.html)[缓存服务](http://www.cnblogs.com/ys-ys/p/4967404.html)[缓存服务](http://www.cnblogs.com/ys-ys/p/4967404.html)[缓存服务](http://www.cnblogs.com/ys-ys/p/4967404.html)angular内置服务
+### angular内置服务
 
 ### 总表
 
