@@ -141,7 +141,15 @@ $location服务解析地址栏中的URL（基于window.location），让你在�
 
 17、$q
 
-angualar 的 Promise 
+angualar 的 Promise ，使用方法基本上和Promise大同小异，可以参考下面一篇博文，[http://xiaoyu2er.github.io/2016/01/08/angular-q-complete-guide/](http://xiaoyu2er.github.io/2016/01/08/angular-q-complete-guide/)，注意$q里面和Promise有一个$q.when\(\)方法，稍微有点区别，不过用的也不是很多。
+
+18、$rootElement
+
+在DOM中提供根元素的入口。
+
+19、$rootScope
+
+提供 顶级作用域的入口
 
 
 
