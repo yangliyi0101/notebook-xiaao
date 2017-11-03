@@ -151,5 +151,15 @@ angualar 的 Promise ，使用方法基本上和Promise大同小异，可以参�
 
 提供 顶级作用域的入口
 
+20、$sce
 
+$sce 服务是AngularJs提供的一种严格上下文转义服务。
+
+21、`$sceDelegate`
+
+$sceDelegate是一个AngularJs为$sce服务提供严格的上下文转义服务的服务
+
+22、$templateCache
+
+第一次使用模板，它被加载到模板缓存中，以便快速检索。你可以直接将模板标签加载到缓存中，或者通过$templateCache服务。
 
