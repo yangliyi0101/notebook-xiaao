@@ -1,7 +1,7 @@
 ### angular内置服务
 
 ### 总表
-
+<style> table th:first-of-type { width: 100px; } </style>
 | 名字 | 说明 |
 | :---: | :--- |
 | $anchorScroll | 滚动浏览器至指定的锚点 |
