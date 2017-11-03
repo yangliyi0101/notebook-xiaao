@@ -139,3 +139,9 @@ $location服务解析地址栏中的URL（基于window.location），让你在�
 
 将一个AngularJS表达式转换成一个函数,其实这个功能还是很强大的，非常的有用，详细的亲看[中文ＡＰＩ](https://segmentfault.com/a/1190000002749571)　，上面有很详细的例子
 
+17、$q
+
+angualar 的 Promise 
+
+
+
