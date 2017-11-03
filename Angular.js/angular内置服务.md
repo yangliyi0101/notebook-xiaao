@@ -27,8 +27,6 @@
 | $sceDelegate | 一个AngularJs为$sce服务提供严格的上下文转义服务的服务 |
 | $templateCache | 第一次使用模板，它被加载到模板缓存中，以便快速检索。你可以直接将模板标签加载到缓存中，或者通过$templateCache服务 |
 
-
-
 #### 1、$anchorScroll
 
 滚动浏览器窗口至指定的锚点
@@ -91,35 +89,35 @@ function compile(tElement, tAttrs, transclude) { ... }
 
 负责实例化控制器
 
-### 6、$document
+#### 6、$document
 
 等同于`window.document`
 
-7、$exceptionHandler
+#### 7、$exceptionHandler
 
 处理程序中出现的异常，不常用
 
-8、$filter
+#### 8、$filter
 
 过滤器 [中文API](http://www.cnblogs.com/ys-ys/p/5006951.html)
 
 也可见filter过滤器介绍
 
-9、 $http
+#### 9、 $http
 
 http请求
 
 详见$http请求数据
 
-10、$httpBackend
+#### 10、$httpBackend
 
-11、**$interpolate**
+#### 11、**$interpolate**
 
 将一个字符串编译成一个插值函数。HTML编译服务使用这个服务完成数据绑定。可以从其他地方获取到内容，处理绑定到对应的html中
 
 [中文API](https://segmentfault.com/a/1190000002753321)  里面有详细的例子，使用的时候一般会结合`$interpolateProvider()`中的开始`startSymbol([value])`和结束`endSymbol([value])`标志方法使用，这个服务一般是特定场合才会使用，个人感觉使用场合不是很高
 
-12、$interval
+#### 12、$interval
 
 window.setInterval的Angular包装形式。Fn是每次延迟时间后被执行的函数
 
@@ -132,45 +130,45 @@ $interval(function () {
 }, 1000, [3], [false])
 ```
 
-13、_$timeout_
+#### 13、$timeout
 
 window.setTimeout的Angular包装形式。Fn函数包装成一个try/catch块，代表$exceptionHandler服务里的任何异常。timeout函数的返回值是一个promise，当到达设置的超时时间时，这个promise将被解决，并执行timeout函数。需要取消timeout，需要调用$timeout.cancel\(promise\);
 
-14、$location
+#### 14、$location
 
 $location服务解析地址栏中的URL（基于window.location），让你在应用代码中能获取到。改变地址栏中的URL会反应$location服务中，反之亦然
 
 [中文API](http://www.cnblogs.com/ys-ys/p/4992711.html)
 
-15、$log
+#### 15、$log
 
 日志信息， 可以到console输出
 
-16、$parse
+#### 16、$parse
 
 将一个AngularJS表达式转换成一个函数,其实这个功能还是很强大的，非常的有用，详细的亲看[中文ＡＰＩ](https://segmentfault.com/a/1190000002749571)　，上面有很详细的例子
 
-17、$q
+#### 17、$q
 
 angualar 的 Promise ，使用方法基本上和Promise大同小异，可以参考下面一篇博文，[http://xiaoyu2er.github.io/2016/01/08/angular-q-complete-guide/](http://xiaoyu2er.github.io/2016/01/08/angular-q-complete-guide/)，注意$q里面和Promise有一个$q.when\(\)方法，稍微有点区别，不过用的也不是很多。
 
-18、$rootElement
+#### 18、$rootElement
 
 在DOM中提供根元素的入口。
 
-19、$rootScope
+#### 19、$rootScope
 
 提供 顶级作用域的入口
 
-20、$sce
+#### 20、$sce
 
 $sce 服务是AngularJs提供的一种严格上下文转义服务。
 
-21、`$sceDelegate`
+#### 21、`$sceDelegate`
 
 $sceDelegate是一个AngularJs为$sce服务提供严格的上下文转义服务的服务
 
-22、$templateCache
+#### 22、$templateCache
 
 第一次使用模板，它被加载到模板缓存中，以便快速检索。你可以直接将模板标签加载到缓存中，或者通过$templateCache服务。
 
