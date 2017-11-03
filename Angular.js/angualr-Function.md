@@ -1,6 +1,12 @@
-
-
 # `angular.copy`
 
 复制一个对象或者一个数组（好吧，万物皆对象，数组也是一个对象）
+
+
+
+# `angular.element`
+
+jQuery 引用，使用jQuery的方法.
+
+
 
