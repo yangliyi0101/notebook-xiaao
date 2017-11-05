@@ -8,5 +8,11 @@ ng的指令非常的多，具体的可以去看API，中文的也可以，这边
 
 # `ngBindtemplate`
 
-用于告诉 AngularJS 将给定表达式的值替换 HTML 元素的内容，当你想在 HTML 元素上绑定多个表达式时可以使用`ng-bind-template`指令
+用于告诉 AngularJS 将给定表达式的值替换 HTML 元素的内容，当你想在 **HTML 元素上绑定多个表达式**时可以使用`ng-bind-template`指令
+
+# `ngBlur`
+
+当输入框失去焦点\(onblur\)时执行表达式。
+
+注意：**ng-blur**指令不会覆盖原生的 onblur 事件， 如果触发该事件，**ng-blur**表达式与原生的 onblur 事件都会执行。
 
