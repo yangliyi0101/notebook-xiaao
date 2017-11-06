@@ -96,7 +96,7 @@ AngularJS 应用在加载时，文档可能会由于AngularJS 代码未加载完
 
 # `ngHide`
 
-# `ngShow`**`ng-show`**
+# `ngShowng-show`
 
 指令在表达式为 true 时显示指定的 HTML 元素，否则隐藏指定的 HTML 元素。
 
@@ -202,9 +202,11 @@ KeyDown -&gt; KeyPress -&gt; KeyUp。如果按一个键很久才松开，发生�
 
 鼠标移动
 
-# 
-
 # `ngOptions`
+
+**ng-options**指令用于使用 &lt;options&gt; 填充 &lt;select&gt; 元素的选项。
+
+**ng-options**指令使用数组来填充下拉列表，多数情况下与**ng-repeat**指令一起使用。其实就是options的angular用法，
 
 
 
