@@ -54,7 +54,35 @@ ng的指令非常的多，具体的可以去看API，中文的也可以，这边
 
 # `ngCloak`
 
-AngularJS 应用在加载时，文档可能会由于AngularJS 代码未加载完而出现显示 AngularJS 代码，进而会有闪烁的效果，**ng-cloak**指令是为了防止该问题的发生，可能我的测试方法有问题，没太看出来效果
+AngularJS 应用在加载时，文档可能会由于AngularJS 代码未加载完而出现显示 AngularJS 代码，进而会有闪烁的效果，**ng-cloak**指令是为了防止该问题的发生，可能我的测试方法有问题，没太看出来效果。
+
+# `ngController`
+
+# `ngCopy`
+
+**ng-copy**指令用于告诉 AngularJS 在 HTML 元素文本被拷贝时要执行的操作。
+
+**ng-copy**指令不会覆盖元素的原始 oncopy 事件, 事件触发时，**ng-copy**表达式与原始的 oncopy 事件将都会执行。
+
+# `ngCsp`
+
+设置**ng-csp**指令为**no-unsafe-eval**, 将阻止 AngularJS 执行 eval 函数，但允许注入内联样式。
+
+设置**ng-csp**指令为**no-inline-style**, 将阻止 AngularJS 注入内联样式，但允许 执行 eval 函数。
+
+包括eval\( \)函数，用到的时候不多.
+
+# `ngCut`
+
+**ng-cut**指令用于告诉 AngularJS 在剪切 HTML 元素的文本时需要执行的操作。
+
+**ng-cut**指令指令不会覆盖元素的原始 oncut 事件, 事件触发时，**ng-cut**表达式与原始的 oncut 事件将都会执行。
+
+# `ngDblclick`
+
+**ng-dblclick**指令用于告诉 AngularJS 在鼠标鼠标 HTML 元素时需要执行的操作。
+
+**ng-dblclick**指令不会覆盖元素的原始 ondblclick 事件, 鼠标双击时，**ng-dblclick**表达式与原始的 ondblclick 事件将都会执行
 
 
 
