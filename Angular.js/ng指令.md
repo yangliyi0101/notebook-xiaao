@@ -166,6 +166,12 @@ KeyDown -&gt; KeyPress -&gt; KeyUp。如果按一个键很久才松开，发生�
 
 **ng-cut**指令指令不会覆盖元素的原始 oncut 事件, 事件触发时，**ng-cut**表达式与原始的 oncut 事件将都会执行。
 
+# `ngPaste`
+
+**ng-paste**指令用于告诉 AngularJS 文本在 HTML 元素上粘贴时需要执行的操作。
+
+**ng-paste**指令不会覆盖元素的原生 onpaste 事件, 事件触发时，**ng-paste**表达式与原生的 onpaste 事件将都会执行。
+
 # `ngList`
 
 **ng-list**指令将字符串转换为数组，并使用逗号分隔。
@@ -207,6 +213,23 @@ KeyDown -&gt; KeyPress -&gt; KeyUp。如果按一个键很久才松开，发生�
 **ng-options**指令用于使用 &lt;options&gt; 填充 &lt;select&gt; 元素的选项。
 
 **ng-options**指令使用数组来填充下拉列表，多数情况下与**ng-repeat**指令一起使用。其实就是options的angular用法，
+
+# `ngReadonly`
+
+**ng-readonly**指令用于设置表单域\(input 或 textarea\) 的 readonly 属性。
+
+# `ngRepeat`
+
+| $index | `number` | 当前索引。 |
+| :--- | :--- | :--- |
+| $first | `boolean` | 当循环的对象存在第一项时为true。 |
+| $middle | `boolean` | 当循环的对象存在中间项时为true。 |
+| $last | `boolean` | 当循环对象存在最后一项时为true。 |
+| $even | `boolean` | 循环的对象在当前位置的"$index"\(索引\)是偶数则为true，否则为false。 |
+| $odd | `boolean` | 循环的对象在当前位置的"$index"\(索引\)是奇数则为true，否则为false。 |
+
+  
+
 
 
 
