@@ -2,6 +2,10 @@ ng-directive指令
 
 ng的指令非常的多，具体的可以去看API，中文的也可以，这边就列出个人觉得没用过的，经常出错的，需要注意的一些指令。
 
+# `ngNonbindable`
+
+**ng-non-bindable**指令用于告诉 AngularJS 当前的 HTML 元素或其子元素不需要编译。
+
 # `ngBindhtml`
 
 通一个安全的方式将内容绑定到 HTML 元素上，直接使用的话会报一个Attempting to use an unsafe value in a safe context的安全错误，使用的时候用$sce.trustAsHtml\(\) 将html内容放进去。
@@ -92,7 +96,7 @@ AngularJS 应用在加载时，文档可能会由于AngularJS 代码未加载完
 
 # `ngHide`
 
-# `ngShow`**ng-show**
+# `ngShow`**`ng-show`**
 
 指令在表达式为 true 时显示指定的 HTML 元素，否则隐藏指定的 HTML 元素。
 
@@ -101,6 +105,10 @@ AngularJS 应用在加载时，文档可能会由于AngularJS 代码未加载完
 **ng-if**指令用于在表达式为 false 时移除 HTML 元素。如果 if 语句执行的结果为 true，会添加移除元素，并显示。
 
 **ng-if**指令不同于 ng-hide， ng-hide 隐藏元素，而**ng-if**是从 DOM 中移除元素。
+
+# `ngOpen`
+
+**ng-open**指令用于设置 details 列表的 open 属性。如果**ng-open**的表达式返回 true 则 details 列表是可见的。
 
 # `ngInclude`
 
@@ -193,6 +201,10 @@ KeyDown -&gt; KeyPress -&gt; KeyUp。如果按一个键很久才松开，发生�
 # `ngMousemove`
 
 鼠标移动
+
+# 
+
+# `ngOptions`
 
 
 
