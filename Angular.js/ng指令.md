@@ -108,5 +108,13 @@ AngularJS 应用在加载时，文档可能会由于AngularJS 代码未加载完
 
 **ng-if**指令不同于 ng-hide， ng-hide 隐藏元素，而**ng-if**是从 DOM 中移除元素。
 
+# `ngInclude`
+
+**ng-include**指令用于包含外部的 HTML 文件。包含的内容将作为指定元素的子节点。
+
+`ng-include`属性的值可以是一个表达式，返回一个文件名。
+
+默认情况下，包含的文件需要包含在同一个域名下。
+
 
 
