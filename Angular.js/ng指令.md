@@ -240,5 +240,17 @@ KeyDown -&gt; KeyPress -&gt; KeyUp。如果按一个键很久才松开，发生�
 
 **ng-style**属性值必须是对象，表达式返回的也是对象。对象由 CSS 属性和值注册，即 key=&gt;value 对。
 
+# `ngSwitch`
+
+**ng-switch**指令根据表达式显示或隐藏对应的部分。
+
+对应的子元素使用**ng-switch-when**指令，如果匹配选中选择显示，其他为匹配的则移除。
+
+你可以通过使用**ng-switch-default**指令设置默认选项，如果都没有匹配的情况，默认选项会显示。
+
+# `ngValue`
+
+**ng-value**指令用于设置 input 或 select 元素的 value 属性。
+
 
 
