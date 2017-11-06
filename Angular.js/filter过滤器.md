@@ -2,6 +2,8 @@
 
 [中文API](http://www.cnblogs.com/ys-ys/p/5006951.html)
 
+[filter实例](http://www.jianshu.com/p/076eac0af0a1)
+
 自带过滤类型：
 
 `currency`_货币 ** **_
