@@ -82,7 +82,13 @@ AngularJS 应用在加载时，文档可能会由于AngularJS 代码未加载完
 
 **ng-dblclick**指令用于告诉 AngularJS 在鼠标鼠标 HTML 元素时需要执行的操作。
 
-**ng-dblclick**指令不会覆盖元素的原始 ondblclick 事件, 鼠标双击时，**ng-dblclick**表达式与原始的 ondblclick 事件将都会执行
+**ng-dblclick**指令不会覆盖元素的原始 ondblclick 事件, 鼠标双击时，**ng-dblclick**表达式与原始的 ondblclick 事件将都会执行.
+
+# `ngDisabled`
+
+**ng-disabled**
+
+指令设置表单输入字段的 disabled 属性\(input, select, 或 textarea\)。如果`ng-disabled`中的表达式返回 true 则表单字段将被禁用。
 
 
 
