@@ -78,8 +78,6 @@ AngularJS 应用在加载时，文档可能会由于AngularJS 代码未加载完
 
 包括eval\( \)函数，用到的时候不多.
 
-
-
 # `ngDblclick`
 
 **ng-dblclick**指令用于告诉 AngularJS 在鼠标鼠标 HTML 元素时需要执行的操作。
@@ -161,6 +159,22 @@ KeyDown -&gt; KeyPress -&gt; KeyUp。如果按一个键很久才松开，发生�
 **ng-cut**指令指令不会覆盖元素的原始 oncut 事件, 事件触发时，**ng-cut**表达式与原始的 oncut 事件将都会执行。
 
 
+
+# `ngList`
+
+**ng-list**指令将字符串转换为数组，并使用逗号分隔。
+
+**ng-list**指令还有另外一种转换方式，如果你有字符串数组希望在输入框中显示，你可以在 input 上使用**ng-list**指令。
+
+`ng-list`属性值定义了分隔符。
+
+# `ngModel `
+
+# `ngModeloptions`
+
+**ng-model-options**指令绑定了 HTML 表单元素到 scope 变量中
+
+你可以指定绑定数据触发的时间，或者指定等待多少毫秒，参数设置可以参考以下说明。
 
 
 
