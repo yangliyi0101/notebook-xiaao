@@ -174,3 +174,25 @@ KeyDown -&gt; KeyPress -&gt; KeyUp。如果按一个键很久才松开，发生�
 
 你可以指定绑定数据触发的时间，或者指定等待多少毫秒，参数设置可以参考以下说明。不太理解
 
+# `ngMousedown`
+
+鼠标按下，左右中间按下都会触发
+
+# `ngMouseup`
+
+鼠标松开，左右中间按下都会触发
+
+# `ngMouseenter`
+
+鼠标进入
+
+# `ngMouseleave`
+
+鼠标离开
+
+# `ngMousemove`
+
+鼠标移动
+
+
+
