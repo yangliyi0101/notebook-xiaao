@@ -16,6 +16,12 @@ ng的指令非常的多，具体的可以去看API，中文的也可以，这边
 
 注意：**ng-blur**指令不会覆盖原生的 onblur 事件， 如果触发该事件，**ng-blur**表达式与原生的 onblur 事件都会执行。
 
+# `ngFocus`
+
+**ng-focus**指令用于告诉 AngularJS 在 HTML 元素获取焦点时需要执行的操作。
+
+**ng-focus**指令不会覆盖元素的原始 onfocus 事件, 事件触发时，**ng-focus**表达式与原始的 onfocus 事件将都会执行。
+
 # `ngChange`
 
 **ng-change**指令需要搭配`ng-model`指令使用。
@@ -89,6 +95,18 @@ AngularJS 应用在加载时，文档可能会由于AngularJS 代码未加载完
 **ng-disabled**
 
 指令设置表单输入字段的 disabled 属性\(input, select, 或 textarea\)。如果`ng-disabled`中的表达式返回 true 则表单字段将被禁用。
+
+# `ngHide`
+
+# `ngShow`**ng-show**
+
+指令在表达式为 true 时显示指定的 HTML 元素，否则隐藏指定的 HTML 元素。
+
+# `ngIf`
+
+**ng-if**指令用于在表达式为 false 时移除 HTML 元素。如果 if 语句执行的结果为 true，会添加移除元素，并显示。
+
+**ng-if**指令不同于 ng-hide， ng-hide 隐藏元素，而**ng-if**是从 DOM 中移除元素。
 
 
 
