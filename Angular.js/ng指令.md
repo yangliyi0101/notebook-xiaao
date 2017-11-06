@@ -208,7 +208,7 @@ KeyDown -&gt; KeyPress -&gt; KeyUp。如果按一个键很久才松开，发生�
 
 鼠标移动
 
-# `ngOptions`
+# `ngOptions  ngSelected`
 
 **ng-options**指令用于使用 &lt;options&gt; 填充 &lt;select&gt; 元素的选项。
 
@@ -228,8 +228,17 @@ KeyDown -&gt; KeyPress -&gt; KeyUp。如果按一个键很久才松开，发生�
 | $even | `boolean` | 循环的对象在当前位置的"$index"\(索引\)是偶数则为true，否则为false。 |
 | $odd | `boolean` | 循环的对象在当前位置的"$index"\(索引\)是奇数则为true，否则为false。 |
 
-  
+# `ngSrc`
 
+**ng-src**指令覆盖了 &lt;img&gt; 元素的 src 属性。如果你使用了 AngularJS 代码设置图片地址，请使用**ng-src**指令替代`src`属性。
+
+**ng-src**指令确保的 AngularJS 代码执行前不显示图片。
+
+# `ngStyle`
+
+**ng-style**指令为 HTML 元素添加 style 属性。
+
+**ng-style**属性值必须是对象，表达式返回的也是对象。对象由 CSS 属性和值注册，即 key=&gt;value 对。
 
 
 
