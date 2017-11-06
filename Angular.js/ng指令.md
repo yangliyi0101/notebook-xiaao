@@ -114,3 +114,53 @@ AngularJS 应用在加载时，文档可能会由于AngularJS 代码未加载完
 
 `ng-include`属性的值可以是一个表达式，返回一个文件名。默认情况下，包含的文件需要包含在同一个域名下。
 
+# `ngInit`
+
+**ng-init**指令执行给定的表达式。
+
+**ng-init**指令添加一些不必要的逻辑到 scope 中，建议你可以在控制器中[**ng-controller**](http://www.angularjs.net.cn/api/ng-ng-controller.html)指令执行它 。
+
+# `ngKeydown   ngKeypress  ngKeyup`
+
+要把$event传过去，一般都是要判断按了哪个按键的。
+
+#### keydown，keypress，keydown三者区别
+
+#### 引发事件的按键
+
+非字符键不会引发 KeyPress 事件，但非字符键却可以引发 KeyDown 和 KeyUp 事件。
+
+#### 事件引发的时间
+
+KeyDown 和 KeyPress 事件在按下键时发生，KeyUp 事件在释放键时发生。
+
+#### 事件发生的顺序
+
+KeyDown -&gt; KeyPress -&gt; KeyUp。如果按一个键很久才松开，发生的事件为：KeyDown -&gt; KeyPress -&gt; KeyDown -&gt; KeyPress -&gt; KeyDown -&gt; KeyPress -&gt; ... -&gt; KeyUp。
+
+* KeyDown触发后，不一定触发KeyUp，当KeyDown 按下后，拖动鼠标，那么将不会触发KeyUp事件。
+
+* KeyPress主要用来捕获数字\(注意：包括Shift+数字的符号\)、字母（注意：包括大小写）、小键盘等除了F1-12、SHIFT、Alt、Ctrl、Insert、Home、PgUp、Delete、End、PgDn、ScrollLock、Pause、NumLock、{菜单键}、{开始键}和方向键外的ANSI字符。
+
+* KeyDown 和KeyUp 通常可以捕获键盘除了PrScrn所有按键\(这里不讨论特殊键盘的特殊键）。
+
+* KeyPress 只能捕获单个字符。
+
+* KeyDown 和KeyUp 可以捕获组合键。
+
+* KeyPress 可以捕获单个字符的大小写。
+
+* KeyDown和KeyUp 对于单个字符捕获的KeyValue 都是一个值，也就是不能判断单个字符的大小写。
+
+* KeyPress 不区分小键盘和主键盘的数字字符。
+
+* KeyDown 和KeyUp 区分小键盘和主键盘的数字字符。
+
+* 其中PrScrn 按键KeyPress、KeyDown和KeyUp 都不能捕获。
+
+
+
+
+
+
+
