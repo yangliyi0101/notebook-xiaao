@@ -78,11 +78,7 @@ AngularJS 应用在加载时，文档可能会由于AngularJS 代码未加载完
 
 包括eval\( \)函数，用到的时候不多.
 
-# `ngCut`
 
-**ng-cut**指令用于告诉 AngularJS 在剪切 HTML 元素的文本时需要执行的操作。
-
-**ng-cut**指令指令不会覆盖元素的原始 oncut 事件, 事件触发时，**ng-cut**表达式与原始的 oncut 事件将都会执行。
 
 # `ngDblclick`
 
@@ -158,7 +154,11 @@ KeyDown -&gt; KeyPress -&gt; KeyUp。如果按一个键很久才松开，发生�
 
 * 其中PrScrn 按键KeyPress、KeyDown和KeyUp 都不能捕获。
 
+# `ngCut`
 
+**ng-cut**指令用于告诉 AngularJS 在剪切 HTML 元素的文本时需要执行的操作。
+
+**ng-cut**指令指令不会覆盖元素的原始 oncut 事件, 事件触发时，**ng-cut**表达式与原始的 oncut 事件将都会执行。
 
 
 
