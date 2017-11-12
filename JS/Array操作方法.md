@@ -42,6 +42,10 @@
 
 [reduceRight\(\)](http://www.runoob.com/jsref/jsref-reduceright.html) 将数组元素计算为一个值（从右到左）。
 
+[reverse\(\)](http://www.runoob.com/jsref/jsref-reverse.html) 反转数组的元素顺序。
+
+[shift\(\)](http://www.runoob.com/jsref/jsref-shift.html) 删除数组第一个元素，并返回数组的第一个元素。
+
 ### 1、单数组操作
 
 ### 2、数组遍历方法
