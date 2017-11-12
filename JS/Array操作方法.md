@@ -48,6 +48,8 @@
 
 [slice\( start, end \)](http://www.runoob.com/jsref/jsref-slice-array.html) 选取数组的的一部分，并返回一个新数组。即克隆部分数组
 
+[some\(\)](http://www.runoob.com/jsref/jsref-some.html)  检测数组元素中是否有元素符合指定条件。
+
 ### 1、单数组操作
 
 ### 2、数组遍历方法
