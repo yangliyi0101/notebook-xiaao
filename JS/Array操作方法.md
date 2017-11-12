@@ -50,7 +50,7 @@
 
 [slice\( start, end \)](http://www.runoob.com/jsref/jsref-slice-array.html) 选取数组的的一部分，并返回一个新数组。即克隆部分数组
 
-
+[sort\( \)](http://www.runoob.com/jsref/jsref-sort.html) 对数组的元素进行排序。使用数字排序，你必须通过一个函数作为参数来调用。
 
 ### 1、单数组操作
 
