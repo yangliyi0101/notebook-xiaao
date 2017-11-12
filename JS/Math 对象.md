@@ -26,24 +26,30 @@ Math.Attributes
 
 | 方法 | 描述 |
 | :---: | :--- |
-| [abs\(x\)](http://www.runoob.com/jsref/jsref-abs.html) | 返回 x 的绝对值。 |
 | [acos\(x\)](http://www.runoob.com/jsref/jsref-acos.html) | 返回 x 的反余弦值。 |
 | [asin\(x\)](http://www.runoob.com/jsref/jsref-asin.html) | 返回 x 的反正弦值。 |
 | [atan\(x\)](http://www.runoob.com/jsref/jsref-atan.html) | 以介于 -PI/2 与 PI/2 弧度之间的数值来返回 x 的反正切值。 |
 | [atan2\(y,x\)](http://www.runoob.com/jsref/jsref-atan2.html) | 返回从 x 轴到点 \(x,y\) 的角度（介于 -PI/2 与 PI/2 弧度之间）。注意y在前，x在后 |
 | [cos\(x\)](http://www.runoob.com/jsref/jsref-cos.html) | 返回数的余弦。 |
-| [exp\(x\)](http://www.runoob.com/jsref/jsref-exp.html) | 返回 Ex的指数。 |
+| [sin\(x\)](http://www.runoob.com/jsref/jsref-sin.html) | 返回数的正弦。 |
+| [tan\(x\)](http://www.runoob.com/jsref/jsref-tan.html) | 返回角的正切。 |
+
+
 | [ceil\(x\)](http://www.runoob.com/jsref/jsref-ceil.html) | 对数进行上舍入。 |
 | [floor\(x\)](http://www.runoob.com/jsref/jsref-floor.html) | 对 x 进行下舍入。 |
-| [log\(x\)](http://www.runoob.com/jsref/jsref-log.html) | 返回数的自然对数（底为e）。 |
 | [max\(x,y,z,...,n\)](http://www.runoob.com/jsref/jsref-max.html) | 返回 x,y,z,...,n 中的最高值。 |
 | [min\(x,y,z,...,n\)](http://www.runoob.com/jsref/jsref-min.html) | 返回 x,y,z,...,n中的最低值。 |
-| [pow\(x,y\)](http://www.runoob.com/jsref/jsref-pow.html) | 返回 x 的 y 次幂。 |
 | [random\(\)](http://www.runoob.com/jsref/jsref-random.html) | 返回 0 ~ 1 之间的随机数。 |
 | [round\(x\)](http://www.runoob.com/jsref/jsref-round.html) | 把数四舍五入为最接近的整数。 |
-| [sin\(x\)](http://www.runoob.com/jsref/jsref-sin.html) | 返回数的正弦。 |
+
+
+
+| [abs\(x\)](http://www.runoob.com/jsref/jsref-abs.html) | 返回 x 的绝对值。 |
+| [exp\(x\)](http://www.runoob.com/jsref/jsref-exp.html) | 返回 Ex的指数。 |
+| [log\(x\)](http://www.runoob.com/jsref/jsref-log.html) | 返回数的自然对数（底为e）。 |
+| [pow\(x,y\)](http://www.runoob.com/jsref/jsref-pow.html) | 返回 x 的 y 次幂。 |
 | [sqrt\(x\)](http://www.runoob.com/jsref/jsref-sqrt.html) | 返回数的平方根。 |
-| [tan\(x\)](http://www.runoob.com/jsref/jsref-tan.html) | 返回角的正切。 |
+
 
 
 
