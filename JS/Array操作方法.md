@@ -46,7 +46,7 @@
 
 [shift\(\)](http://www.runoob.com/jsref/jsref-shift.html) 删除数组第一个元素，并返回数组的第一个元素。
 
-[slice\(\)](http://www.runoob.com/jsref/jsref-slice-array.html) 选取数组的的一部分，并返回一个新数组。即抽离数组
+[slice\(\)](http://www.runoob.com/jsref/jsref-slice-array.html) 选取数组的的一部分，并返回一个新数组。即克隆部分数组
 
 ### 1、单数组操作
 
