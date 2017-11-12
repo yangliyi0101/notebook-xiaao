@@ -36,7 +36,7 @@
 
 [map\(\)](http://www.runoob.com/jsref/jsref-map.html) 删除数组的最后一个元素并返回删除后的元素。
 
-
+[push\(\)](http://www.runoob.com/jsref/jsref-push.html) 向数组的末尾添加一个或更多元素，并返回新的长度。
 
 ### 1、单数组操作
 
