@@ -38,6 +38,8 @@
 
 [push\(\)](http://www.runoob.com/jsref/jsref-push.html) 向数组的末尾添加一个或更多元素，并返回新的长度。
 
+[reduce\(\)](http://www.runoob.com/jsref/jsref-reduce.html) 将数组元素计算为一个值（从左到右）。如遇到字符串，执行字符串拼接。
+
 ### 1、单数组操作
 
 ### 2、数组遍历方法
