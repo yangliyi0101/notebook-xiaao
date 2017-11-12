@@ -24,14 +24,13 @@ Math.Attributes
 
 ### Math 对象方法
 
-
 | 方法 | 描述 |
 | :---: | :--- |
 | [abs\(x\)](http://www.runoob.com/jsref/jsref-abs.html) | 返回 x 的绝对值。 |
 | [acos\(x\)](http://www.runoob.com/jsref/jsref-acos.html) | 返回 x 的反余弦值。 |
 | [asin\(x\)](http://www.runoob.com/jsref/jsref-asin.html) | 返回 x 的反正弦值。 |
 | [atan\(x\)](http://www.runoob.com/jsref/jsref-atan.html) | 以介于 -PI/2 与 PI/2 弧度之间的数值来返回 x 的反正切值。 |
-| [atan2\(y,x\)](http://www.runoob.com/jsref/jsref-atan2.html) | 返回从 x 轴到点 \(x,y\) 的角度（介于 -PI/2 与 PI/2 弧度之间）。 |
+| [atan2\(y,x\)](http://www.runoob.com/jsref/jsref-atan2.html) | 返回从 x 轴到点 \(x,y\) 的角度（介于 -PI/2 与 PI/2 弧度之间）。注意y在前，x在后 |
 | [ceil\(x\)](http://www.runoob.com/jsref/jsref-ceil.html) | 对数进行上舍入。 |
 | [cos\(x\)](http://www.runoob.com/jsref/jsref-cos.html) | 返回数的余弦。 |
 | [exp\(x\)](http://www.runoob.com/jsref/jsref-exp.html) | 返回 Ex的指数。 |
