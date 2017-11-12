@@ -14,6 +14,20 @@
 
 [copyWithin\( \)](http://www.runoob.com/jsref/jsref-copywithin.html) 从数组的指定位置拷贝元素到数组的另一个指定位置中。
 
+[every\(\)](http://www.runoob.com/jsref/jsref-every.html)  检测数值元素的每个元素是否都符合条件。
+
+[fill\(\)](http://www.runoob.com/jsref/jsref-fill.html) 使用一个固定值来填充数组。
+
+[filter\(\)](http://www.runoob.com/jsref/jsref-filter.html) 检测数值元素，并返回符合条件所有元素的数组。
+
+[find\(\)](http://www.runoob.com/jsref/jsref-find.html) 返回符合传入测试（函数）条件的数组元素。当数组中的元素在测试条件时返回 true 时, find\(\) 返回符合条件的元素，之后的值不会再调用执行函数。
+
+[findIndex\(\)](http://www.runoob.com/jsref/jsref-findindex.html) 返回符合传入测试（函数）条件的数组元素索引。同样，检测到第一个的时候，然后返回，不在执行后面的。
+
+[forEach\(function\(currentValue,index,arr\),thisValue\)](http://www.runoob.com/jsref/jsref-foreach.html)  数组每个元素都执行一次回调函数。
+
+[indexOf\( _item_,  _start _\)](http://www.runoob.com/jsref/jsref-indexof-array.html) 搜索数组中的元素，并返回它所在的位置。
+
 ### 1、单数组操作
 
 ### 2、数组遍历方法
