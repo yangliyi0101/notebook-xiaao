@@ -26,7 +26,17 @@
 
 [forEach\(function\(currentValue,index,arr\),thisValue\)](http://www.runoob.com/jsref/jsref-foreach.html)  数组每个元素都执行一次回调函数。
 
+[map\(\)](#)通过指定函数处理数组的每个元素，并返回处理后的数组。
+
 [indexOf\( _item_,  _start _\)](http://www.runoob.com/jsref/jsref-indexof-array.html) 搜索数组中的元素，并返回它所在的位置。
+
+[join\(\)](http://www.runoob.com/jsref/jsref-join.html)  把数组的所有元素放入一个字符串。
+
+[lastIndexOf\(\)](http://www.runoob.com/jsref/jsref-lastindexof-array.html) 返回一个指定的字符串值最后出现的位置，在一个字符串中的指定位置从后向前搜索。
+
+[map\(\)](http://www.runoob.com/jsref/jsref-map.html) 删除数组的最后一个元素并返回删除后的元素。
+
+
 
 ### 1、单数组操作
 
