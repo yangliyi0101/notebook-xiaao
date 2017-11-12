@@ -22,6 +22,8 @@
 
 [find\(\)](http://www.runoob.com/jsref/jsref-find.html) 返回符合传入测试（函数）条件的数组元素。当数组中的元素在测试条件时返回 true 时, find\(\) 返回符合条件的元素，之后的值不会再调用执行函数。
 
+[some\(\)](#) 检测数组元素中是否有元素符合指定条件。
+
 [findIndex\(\)](http://www.runoob.com/jsref/jsref-findindex.html) 返回符合传入测试（函数）条件的数组元素索引。同样，检测到第一个的时候，然后返回，不在执行后面的。
 
 [forEach\(function\(currentValue,index,arr\),thisValue\)](http://www.runoob.com/jsref/jsref-foreach.html)  数组每个元素都执行一次回调函数。
@@ -48,7 +50,7 @@
 
 [slice\( start, end \)](http://www.runoob.com/jsref/jsref-slice-array.html) 选取数组的的一部分，并返回一个新数组。即克隆部分数组
 
-[some\(\)](http://www.runoob.com/jsref/jsref-some.html)  检测数组元素中是否有元素符合指定条件。
+
 
 ### 1、单数组操作
 
