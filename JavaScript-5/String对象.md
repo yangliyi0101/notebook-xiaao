@@ -22,7 +22,7 @@
 | [fromCharCode\(\)](http://www.runoob.com/jsref/jsref-fromcharcode.html) | 将 Unicode 编码转为字符。 |
 | [indexOf\(\)](http://www.runoob.com/jsref/jsref-indexof.html) | 返回某个指定的字符串值在字符串中首次出现的位置。 |
 | [lastIndexOf\(\)](http://www.runoob.com/jsref/jsref-lastindexof.html) | 从后向前搜索字符串，并从起始位置（0）开始计算返回字符串最后出现的位置。 |
-| [match\(\)](http://www.runoob.com/jsref/jsref-match.html) | 查找找到一个或多个正则表达式的匹配。 |
+| [match\(\)](http://www.runoob.com/jsref/jsref-match.html) | 查找找到一个或多个正则表达式的匹配。这个蛮有用 |
 | [replace\(\)](http://www.runoob.com/jsref/jsref-replace.html) | 在字符串中查找匹配的子串， 并替换与正则表达式匹配的子串。 |
 | [search\(\)](http://www.runoob.com/jsref/jsref-search.html) | 查找与正则表达式相匹配的值。 |
 | [slice\(\)](http://www.runoob.com/jsref/jsref-slice-string.html) | 提取字符串的片断，并在新的字符串中返回被提取的部分。 |
