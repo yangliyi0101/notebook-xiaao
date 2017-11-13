@@ -15,7 +15,7 @@
 ## String 对象方法
 
 | 方法 | 描述 |
-| ---: | :--- |
+| :--- | :--- |
 | [charAt\(\)](http://www.runoob.com/jsref/jsref-charat.html) | 返回在指定位置的字符。 |
 | [charCodeAt\(\)](http://www.runoob.com/jsref/jsref-charcodeat.html) | 返回在指定的位置的字符的 Unicode 编码。 |
 | [fromCharCode\(\)](http://www.runoob.com/jsref/jsref-fromcharcode.html) | 将 Unicode 编码转为字符。 |
