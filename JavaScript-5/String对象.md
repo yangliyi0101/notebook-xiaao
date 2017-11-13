@@ -14,14 +14,11 @@
 
 ## String 对象方法
 
-  
-
-
 | 方法 | 描述 |
 | :--- | :--- |
 | [charAt\(\)](http://www.runoob.com/jsref/jsref-charat.html) | 返回在指定位置的字符。 |
 | [charCodeAt\(\)](http://www.runoob.com/jsref/jsref-charcodeat.html) | 返回在指定的位置的字符的 Unicode 编码。 |
-| [concat\(\)](http://www.runoob.com/jsref/jsref-concat-string.html) | 连接两个或更多字符串，并返回新的字符串。 |
+| [concat\(\)](http://www.runoob.com/jsref/jsref-concat-string.html) | 连接两个或更多字符串，并返回新的字符串。如果有多个空格，则视为一个 |
 | [fromCharCode\(\)](http://www.runoob.com/jsref/jsref-fromcharcode.html) | 将 Unicode 编码转为字符。 |
 | [indexOf\(\)](http://www.runoob.com/jsref/jsref-indexof.html) | 返回某个指定的字符串值在字符串中首次出现的位置。 |
 | [lastIndexOf\(\)](http://www.runoob.com/jsref/jsref-lastindexof.html) | 从后向前搜索字符串，并从起始位置（0）开始计算返回字符串最后出现的位置。 |
