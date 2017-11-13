@@ -34,5 +34,7 @@
 | [substring\(from , to\)](http://www.runoob.com/jsref/jsref-substring.html) | 提取字符串中两个指定的索引号之间的字符。 |
 | [valueOf\(\)](http://www.runoob.com/jsref/jsref-valueof-string.html) | 返回某个字符串对象的原始值。 |
 
+## String HTML 包装方法
+
 
 
