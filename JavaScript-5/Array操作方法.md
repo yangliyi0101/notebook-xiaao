@@ -34,13 +34,13 @@
 
 ##### 查询数组
 
-[`every()`](http://www.runoob.com/jsref/jsref-every.html)` ` 检测数值元素的每个元素是否都符合条件。
+[`every()`](http://www.runoob.com/jsref/jsref-every.html)` ` 检测数值元素的每个元素是否都符合条件。返回Boolean值。
 
 [`filter()`](http://www.runoob.com/jsref/jsref-filter.html) 检测数值元素，并返回符合条件所有元素的数组。
 
 [`find()`](http://www.runoob.com/jsref/jsref-find.html) 返回符合传入测试（函数）条件的数组元素。当数组中的元素在测试条件时返回 true 时, find\(\) 返回符合条件的元素，之后的值不会再调用执行函数。
 
-[`some()`](#)` `检测数组元素中是否有元素符合指定条件。
+[`some()`](#)` `检测数组元素中是否有元素符合指定条件。返回布尔值
 
 [`findIndex()`](http://www.runoob.com/jsref/jsref-findindex.html) 返回符合传入测试（函数）条件的数组元素索引。同样，检测到第一个的时候，然后返回，不在执行后面的。
 
