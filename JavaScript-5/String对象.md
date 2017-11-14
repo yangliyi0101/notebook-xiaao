@@ -2,8 +2,6 @@
 
 ## String 对象属性
 
-|  |
-| :--- |
 
 
 | 属性 | 描述 |
@@ -35,6 +33,23 @@
 | [valueOf\(\)](http://www.runoob.com/jsref/jsref-valueof-string.html) | 返回某个字符串对象的原始值。 |
 
 ## String HTML 包装方法
+
+
+| 方法 | 描述 |
+| :--- | :--- |
+| [anchor\(\)](http://www.runoob.com/jsref/jsref-anchor.html) | 创建 HTML 锚。 |
+| [big\(\)](http://www.runoob.com/jsref/jsref-big.html) | 用大号字体显示字符串。 |
+| [blink\(\)](http://www.runoob.com/jsref/jsref-blink.html) | 显示闪动字符串。 |
+| [bold\(\)](http://www.runoob.com/jsref/jsref-bold.html) | 使用粗体显示字符串。 |
+| [fixed\(\)](http://www.runoob.com/jsref/jsref-fixed.html) | 以打字机文本显示字符串。 |
+| [fontcolor\(\)](http://www.runoob.com/jsref/jsref-fontcolor.html) | 使用指定的颜色来显示字符串。 |
+| [fontsize\(\)](http://www.runoob.com/jsref/jsref-fontsize.html) | 使用指定的尺寸来显示字符串。 |
+| [italics\(\)](http://www.runoob.com/jsref/jsref-italics.html) | 使用斜体显示字符串。 |
+| [link\(\)](http://www.runoob.com/jsref/jsref-link.html) | 将字符串显示为链接。 |
+| [small\(\)](http://www.runoob.com/jsref/jsref-small.html) | 使用小字号来显示字符串。 |
+| [strike\(\)](http://www.runoob.com/jsref/jsref-strike.html) | 用于显示加删除线的字符串。 |
+| [sub\(\)](http://www.runoob.com/jsref/jsref-sub.html) | 把字符串显示为下标。 |
+| [sup\(\)](http://www.runoob.com/jsref/jsref-sup.html) | 把字符串显示为上标。 |
 
 
 
